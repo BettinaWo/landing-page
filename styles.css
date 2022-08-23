@@ -200,6 +200,7 @@ padding: 1.5em;
 
   .tilesLayerContent {
     padding-top: 1em;
+    padding-bottom: 2.5em;
   }
 
   .tilesLayerHeader {
@@ -242,12 +243,12 @@ padding: 1.5em;
 .AboutImage, .SourcesImage, .ProjectsImage, .ContactImage {
     width: 12em;
     height: 14em;
-    border: 0.7em solid rgb(255, 255, 255);
+    border: 0.7em solid #1F2937;
     border-radius: 1.5em;
     box-shadow: 0 10px 30px black;
     object-fit: cover;
     outline: none;
-    background-color: #eee;
+    background-color:#1F2937;
 }
 
 .AboutSubtitle, .SourcesSubtitle, .ProjectsSubtitle, .ContactSubtitle {
@@ -258,4 +259,120 @@ padding: 1.5em;
     margin-top: 0.9em;
 }
 
+.QuoteLayer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: solid black 1px;
+    background-image: linear-gradient( 60deg, rgba(57, 60, 90, 0.85), rgba(180, 180, 120, 0.5) ), url(files/logtruck.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8em;
+}
 
+.QuoteLayerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    letter-spacing: 0.1em;
+    margin: 17em 0;
+}
+
+.Quote {
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+.Author {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+
+.BottomLayerBackground {
+    background-image: linear-gradient(rgb(228, 60, 158), rgb(180, 14, 97)0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em 0;
+}
+
+.BottomContent {
+    background: #1F2937;
+    width: 60em;
+    padding: 2em 0;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.BottomText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-right: 2em;
+}
+
+.BottomContactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BottomContactButton {
+    color: white;
+    border: 0.15em solid white;
+    background-image: linear-gradient(rgba(0, 171, 194, 0.5), rgba(1, 68, 68, 0.5));
+    border-radius: 0.4em;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.BottomContent {
+    padding: 1.2em;
+}
+
+.BottomText {
+    margin-right: 2em;
+}
+
+.BottomHeader {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.BottomDescription {
+    font-size: 1.2em;
+}
+
+.FooterLayer {
+    background: #1F2937;
+}
+
+.FooterBackground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.25em 0;
+
+}
+
+.WebsiteAuthor, .Credit {
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+}
