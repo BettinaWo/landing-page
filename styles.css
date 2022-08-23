@@ -118,7 +118,7 @@ a {
 width: 75%;
 height: 100%;
 border-radius: 1.5em;
-margin: 9em auto 0 auto;
+margin: 12em auto 0 auto;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -181,9 +181,8 @@ padding: 1.5em;
 .container-photo {
     width: 20em;
     height: 20em;
-    border: 0.3em solid rgba(240, 30, 149, 0.747);
+    border: 0.5em solid rgba(240, 30, 149, 0.747);
     border-radius: 50%;
-    background: #eee;
     margin: auto;
     padding: 0;
   }
@@ -193,5 +192,70 @@ padding: 1.5em;
       width: 100%;
       height: 100%;
   }
+
+  .tilesLayerBackground {
+    background-image: linear-gradient(rgb(228, 60, 158), rgb(180, 14, 97)0);
+    margin-top: 20em;
+  }
+
+  .tilesLayerContent {
+    padding-top: 1em;
+  }
+
+  .tilesLayerHeader {
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    color: #eee;
+    margin-top: 0.8em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+  }
+
+.tilesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 0;
+}
+
+.AboutContainer, .SourcesContainer, .ProjectsContainer, .ContactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.LinkAbout, .LinkSources, .LinkProjects, .LinkContact {
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 0;
+    margin-right: 2em
+}
+
+.AboutImage, .SourcesImage, .ProjectsImage, .ContactImage {
+    width: 12em;
+    height: 14em;
+    border: 0.7em solid rgb(255, 255, 255);
+    border-radius: 1.5em;
+    box-shadow: 0 10px 30px black;
+    object-fit: cover;
+    outline: none;
+    background-color: #eee;
+}
+
+.AboutSubtitle, .SourcesSubtitle, .ProjectsSubtitle, .ContactSubtitle {
+    text-align: center;
+    color: rgb(247, 241, 241);
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: 0.9em;
+}
 
 
